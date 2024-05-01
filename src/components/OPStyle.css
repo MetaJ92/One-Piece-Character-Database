@@ -1,0 +1,49 @@
+.table-sort th:hover {
+	cursor: pointer;
+    background: rgba(255, 255, 0, 1.0);
+}
+
+h1{
+    color: rgba(0,0,0,1.0);
+    font-size:35px;
+    font-family: Papyrus, fantasy;
+}
+
+.Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+/* div { */
+    /* background-image: url("./Images/OPBackground.jpg"); */
+    background-image: url("C:/Users/Spiri/Desktop/SchoolWork/CSC 496/gatsbyOPDB/gatsby-one-piece-data-base/src/images/OPBackground.jpg");
+    background-repeat: repeat;
+}
+
+.table-sort {
+    width: 100%;
+    text-align: center;
+    font-size:35px;
+    font-family: Papyrus, fantasy;
+    background: rgba(255, 0, 0, 0.5);
+}
+
+th,
+td{
+    border: 1px solid rgba(0, 0, 0, 0.6)
+}
+
+.table-sort .sortUp,
+.table-sort .sortDown {
+	background: rgba(0, 0, 255, 1.0);
+}
+
+.table-sort .sortUp::after {
+	content: "\1F702";
+}
+
+.table-sort .sortDown::after {
+	content: "\1F704";
+}
